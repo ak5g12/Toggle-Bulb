@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#222;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    text-align:center;
+}
+
+#bulb{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color:gray;
+    cursor:pointer;
+    transition:0.4s ease;
+    border:3px solid #555;
+}
+
+#bulb.on{
+    background-color:yellow;
+    box-shadow:
+        0 0 20px yellow,
+        0 0 40px yellow,
+        0 0 60px yellow,
+        0 0 100px yellow;
+}
+
+#status{
+    margin-top:20px;
+    color:white;
+    font-size:22px;
+}
