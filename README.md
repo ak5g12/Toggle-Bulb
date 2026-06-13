@@ -15,6 +15,8 @@ How to Run
 Clone or download this repository.
 Open the project folder.
 Run the index.html file in your web browser.
+OR 
+You can directly go through this link to see the live project - https://ak5g12.github.io/Toggle-Bulb/
 Project Purpose
 
 This project demonstrates DOM manipulation and event handling in JavaScript by changing the bulb's state when the user interacts with the switch.
